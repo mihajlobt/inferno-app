@@ -2,18 +2,17 @@
   "name": "inferno-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://inferno-app.herokuapp.com/",
-  "devDependencies": {
-    "react-scripts": "0.9.5"
-  },
   "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "inferno": "^3.0.6",
+    "inferno-component": "^3.0.6"
+  },
+  "devDependencies": {
+    "inferno-scripts": "3.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "inferno-scripts start",
+    "build": "inferno-scripts build",
+    "test": "inferno-scripts test --env=jsdom",
+    "eject": "inferno-scripts eject"
   }
 }
